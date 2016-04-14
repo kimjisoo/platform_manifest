@@ -446,7 +446,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- my repos -->
-  <project path="build" name="kimjisoo/build" remote="github" revision="mm6.0" >
+  <project path="build" name="kimjisoo/android_build" remote="github" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="external/sepolicy" name="kimjisoo/external_sepolicy" remote="github" revision="mm6.0" />
