@@ -453,14 +453,14 @@
   <project path="external/busybox" name="kimjisoo/android_external_busybox" remote="github" revision="mm6.0" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/android_packages_inputmethods_LatinIME" remote="github" revision="mm6.0" />
   <project path="system/core" name="kimjisoo/system_core" remote="github" revision="mm6.0" />
-  <project path="vendor/slim" name="kimjisoo/vendor_slim" remote="github" revision="mm6.0" />
+  <project path="vendor/jisoo" name="kimjisoo/vendor_slim" remote="github" revision="jisoo" />
 
   <project path="frameworks/base" name="kimjisoo/android_frameworks_base" remote="github" revision="mm6.0" />
   <project path="packages/apps/Settings" name="kimjisoo/android_packages_apps_Settings" remote="github" revision="mm6.0" />
 
   <!-- flo -->
   <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="mm6.0" />
-  <project name="kimjisoo/kernel_asus_flo" path="kernel/asus/flo" remote="github" revision="mm6.0" />
+  <project path="kernel/msm/flo" name="android_kernel_google_msm" remote="darkkat" revision="mm6.0" />
   <project name="kimjisoo/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="mm6.0" />
 
   <!-- hammerhead -->
