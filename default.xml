@@ -462,6 +462,7 @@
   <project path="packages/apps/Settings" name="kimjisoo/android_packages_apps_Settings" remote="github" revision="mm6.0" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/android_packages_inputmethods_LatinIME" remote="github" revision="mm6.0" />
   <project path="packages/apps/Launcher3" name="kimjisoo/packages_apps_Launcher3" remote="github" revision="mm6.0" />
+  <project path="packages/apps/OmniSwitch" name="kimjisoo/android_packages_apps_OmniSwitch" remote="github" revision="android-6.0" />
 
   <!-- flo -->
   <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="mm6.0" />
