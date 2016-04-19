@@ -456,6 +456,7 @@
   <project path="packages/apps/Launcher3" name="kimjisoo/packages_apps_Launcher3" remote="github" revision="mm6.0" />
   <project path="packages/apps/OmniSwitch" name="kimjisoo/android_packages_apps_OmniSwitch" remote="github" revision="android-6.0" />
   <project path="packages/apps/DeskClock" name="kimjisoo/packages_apps_DeskClock" remote="github" revision="mm6.0" />
+  <project path="packages/apps/LockClock" name="kimjisoo/android_packages_apps_LockClock" remote="github" revision="mm6.0" />
 
   <!-- flo -->
   <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="mm6.0" />
