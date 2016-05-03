@@ -327,7 +327,6 @@
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
@@ -455,6 +454,7 @@
   <project path="packages/apps/OmniSwitch" name="kimjisoo/android_packages_apps_OmniSwitch" remote="github" revision="android-6.0" />
   <project path="packages/apps/DeskClock" name="kimjisoo/packages_apps_DeskClock" remote="github" revision="mm6.0" />
   <project path="packages/apps/LockClock" name="kimjisoo/android_packages_apps_LockClock" remote="github" revision="mm6.0" />
+  <project path="packages/apps/Gallery2" name="kimjisoo/packages_apps_Gallery2" remote="github" revision="mm6.0" />
 
   <!-- flo -->
   <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="mm6.0" />
