@@ -454,7 +454,7 @@
   <project path="packages/apps/LockClock" name="kimjisoo/android_packages_apps_LockClock" remote="github" revision="mm6.0" />
   <project path="packages/apps/Gallery2" name="kimjisoo/packages_apps_Gallery2" remote="github" revision="mm6.0" />
   <project path="packages/providers/DownloadProvider" name="kimjisoo/packages_providers_DownloadProvider" remote="github" revision="mm6.0" />
-  <project path="packages/apps/Contacts" name="kimjisoo/packages_apps_ Contacts" remote="github" revision="mm6.0" />
+  <project path="packages/apps/Contacts" name="kimjisoo/packages_apps_Contacts" remote="github" revision="mm6.0" />
 
   <!-- flo -->
   <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="mm6.0" />
