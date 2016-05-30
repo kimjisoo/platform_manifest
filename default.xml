@@ -453,8 +453,8 @@
   <project path="packages/providers/DownloadProvider" name="kimjisoo/packages_providers_DownloadProvider" remote="github" revision="mm6.0" />
   <project path="packages/apps/Contacts" name="kimjisoo/packages_apps_Contacts" remote="github" revision="mm6.0" />
   <project path="packages/apps/Messaging" name="kimjisoo/packages_apps_Messaging" remote="github" revision="mm6.0" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" remote="github" revision="mm6.0" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" remote="github" revision="mm6.0" />
+  <project path="packages/apps/InCallUI" name="kimjisoo/packages_apps_InCallUI" remote="github" revision="mm6.0" />
+  <project path="packages/services/Telephony" name="kimjisoo/packages_services_Telephony" remote="github" revision="mm6.0" />
 
   <!-- flo -->
   <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="mm6.0" />
