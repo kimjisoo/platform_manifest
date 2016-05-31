@@ -322,7 +322,6 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
@@ -455,6 +454,7 @@
   <project path="packages/apps/Messaging" name="kimjisoo/packages_apps_Messaging" remote="github" revision="mm6.0" />
   <project path="packages/apps/InCallUI" name="kimjisoo/packages_apps_InCallUI" remote="github" revision="mm6.0" />
   <project path="packages/services/Telephony" name="kimjisoo/packages_services_Telephony" remote="github" revision="mm6.0" />
+  <project path="packages/apps/Dialer" name="kimjisoo/packages_apps_Dialer" remote="github" revision="mm6.0" />
 
   <!-- flo -->
   <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="mm6.0" />
