@@ -459,7 +459,7 @@
 
   <!-- flo -->
   <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="mm6.0" />
-  <project path="kernel/msm/flo" name="kimjisoo/android_kernel_google_msm" remote="github" revision="mm6.0" />
+  <project path="kernel/msm/flo" name="kimjisoo/kernel_google_msm" remote="github" revision="mm6.0" />
   <project name="kimjisoo/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="mm6.0" />
 
   <!-- hammerhead -->
