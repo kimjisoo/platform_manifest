@@ -545,5 +545,6 @@
   <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="n7.0" />
   <project path="kernel/msm/flo" name="kimjisoo/kernel_google_msm" remote="github" revision="n7.0" />
   <project name="kimjisoo/vendor_asus" path="vendor/asus" remote="github" revision="n7.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk,linux,arm" />
 
 </manifest>
