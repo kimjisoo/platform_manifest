@@ -428,7 +428,6 @@
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
@@ -532,6 +531,7 @@
   <project path="system/sepolicy" name="kimjisoo/system_sepolicy" remote="github" revision="n7.0" />
   <project path="system/core" name="kimjisoo/system_core" remote="github" revision="n7.0" />
   <project path="vendor/jisoo" name="kimjisoo/vendor_jisoo" remote="github" revision="n7.0" />
+  <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="n7.0" />
 
   <!-- needed to support legacy devices -->
   <project path="hardware/qcom/audio" name="kimjisoo/hardware_qcom_audio" remote="github" revision="n7.0" />
