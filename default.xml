@@ -307,7 +307,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -416,7 +415,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
@@ -532,6 +530,8 @@
   <project path="system/core" name="kimjisoo/system_core" remote="github" revision="n7.0" />
   <project path="vendor/jisoo" name="kimjisoo/vendor_jisoo" remote="github" revision="n7.0" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="n7.0" />
+  <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="n7.0" />
+  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.0" />
 
   <!-- needed to support legacy devices -->
   <project path="hardware/qcom/audio" name="kimjisoo/hardware_qcom_audio" remote="github" revision="n7.0" />
