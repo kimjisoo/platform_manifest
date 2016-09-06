@@ -525,7 +525,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="kimjisoo/platform_bionic" remote="github" revision="n7.0"/>
+  <project path="bionic" name="kimjisoo/bionic" remote="github" revision="n7.0"/>
   <project path="system/sepolicy" name="kimjisoo/system_sepolicy" remote="github" revision="n7.0" />
   <project path="system/core" name="kimjisoo/system_core" remote="github" revision="n7.0" />
   <project path="vendor/jisoo" name="kimjisoo/vendor_jisoo" remote="github" revision="n7.0" />
