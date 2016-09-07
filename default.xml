@@ -532,6 +532,7 @@
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="n7.0" />
   <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.0" />
+  <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="n7.0" />
 
   <!-- needed to support legacy devices -->
   <project path="hardware/qcom/audio" name="kimjisoo/hardware_qcom_audio" remote="github" revision="n7.0" />
