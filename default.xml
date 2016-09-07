@@ -333,7 +333,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -531,6 +530,7 @@
   <project path="vendor/jisoo" name="kimjisoo/vendor_jisoo" remote="github" revision="n7.0" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="n7.0" />
   <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="n7.0" />
+  <project path="frameworks/support" name="kimjisoo/frameworks_support" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="n7.0" />
 
