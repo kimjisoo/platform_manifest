@@ -432,18 +432,18 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- my repos -->
-  <project path="build" name="kimjisoo/android_build" remote="github" revision="mm6.0" >
+  <project path="build" name="kimjisoo/build" remote="github" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="external/sepolicy" name="kimjisoo/external_sepolicy" remote="github" revision="mm6.0" />
-  <project path="external/busybox" name="kimjisoo/android_external_busybox" remote="github" revision="mm6.0" />
+  <project path="external/busybox" name="kimjisoo/external_busybox" remote="github" revision="mm6.0" />
   <project path="system/core" name="kimjisoo/system_core" remote="github" revision="mm6.0" />
   <project path="vendor/jisoo" name="kimjisoo/vendor_jisoo" remote="github" revision="mm6.0" />
 
-  <project path="frameworks/base" name="kimjisoo/android_frameworks_base" remote="github" revision="mm6.0" />
+  <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="mm6.0" />
   <project path="frameworks/av" name="kimjisoo/frameworks_av" remote="github" revision="mm6.0" />
-  <project path="packages/apps/Settings" name="kimjisoo/android_packages_apps_Settings" remote="github" revision="mm6.0" />
-  <project path="packages/inputmethods/LatinIME" name="kimjisoo/android_packages_inputmethods_LatinIME" remote="github" revision="mm6.0" />
+  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="mm6.0" />
+  <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="mm6.0" />
   <project path="packages/apps/Launcher3" name="kimjisoo/packages_apps_Launcher3" remote="github" revision="mm6.0" />
   <project path="packages/apps/OmniSwitch" name="kimjisoo/android_packages_apps_OmniSwitch" remote="github" revision="android-6.0" />
   <project path="packages/apps/DeskClock" name="kimjisoo/packages_apps_DeskClock" remote="github" revision="mm6.0" />
@@ -466,7 +466,7 @@
 
   <!-- bullhead -->
   <project name="kimjisoo/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="mm6.0" />
-  <project path="kernel/lge/bullhead" name="kimjisoo/android_kernel_lge_bullhead" remote="github" revision="mm6.0" />
+  <project path="kernel/lge/bullhead" name="kimjisoo/kernel_lge_bullhead" remote="github" revision="mm6.0" />
   <project name="kimjisoo/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="mm6.0" />
 
 </manifest>
