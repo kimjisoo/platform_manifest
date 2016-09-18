@@ -524,7 +524,7 @@
   <project path="bionic" name="kimjisoo/bionic" remote="github" revision="n7.0"/>
   <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="n7.0" />
   <project path="frameworks/support" name="kimjisoo/frameworks_support" remote="github" revision="n7.0" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="github" revision="n7.0" />
+  <project path="packages/apps/Bluetooth" name="kimjisoo/packages_apps_Bluetooth" remote="github" revision="n7.0" />
   <project path="packages/apps/LockClock" name="kimjisoo/packages_apps_LockClock" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="n7.0" />
