@@ -403,7 +403,6 @@
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
@@ -494,6 +493,7 @@
   <project path="packages/apps/Masquerade" name="kimjisoo/packages_apps_Masquerade" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="n7.0" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" remote="github" revision="n7.0" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="n7.0" />
   <project path="system/sepolicy" name="kimjisoo/system_sepolicy" remote="github" revision="n7.0" />
   <project path="system/core" name="kimjisoo/system_core" remote="github" revision="n7.0" />
