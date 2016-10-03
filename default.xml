@@ -493,7 +493,7 @@
   <project path="packages/apps/Masquerade" name="kimjisoo/packages_apps_Masquerade" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="n7.0" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" remote="github" revision="n7.0" />
+  <project path="packages/services/Telephony" name="kimjisoo/packages_services_Telephony" remote="github" revision="n7.0" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="n7.0" />
   <project path="system/sepolicy" name="kimjisoo/system_sepolicy" remote="github" revision="n7.0" />
   <project path="system/core" name="kimjisoo/system_core" remote="github" revision="n7.0" />
