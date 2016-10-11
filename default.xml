@@ -521,13 +521,13 @@
   <project path="frameworks/native" name="kimjisoo/frameworks_native" remote="github" revision="n7.0" />
   <project path="frameworks/support" name="kimjisoo/frameworks_support" remote="github" revision="n7.0" />
   <project path="packages/apps/Bluetooth" name="kimjisoo/packages_apps_Bluetooth" remote="github" revision="n7.0" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="github" revision="n7.0" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="github" revision="n7.0" />
+  <project path="packages/apps/Contacts" name="kimjisoo/packages_apps_Contacts" remote="github" revision="n7.0" />
+  <project path="packages/apps/ContactsCommon" name="kimjisoo/packages_apps_ContactsCommon" remote="github" revision="n7.0" />
   <project path="packages/apps/Dialer" name="kimjisoo/packages_apps_Dialer" remote="github" revision="n7.0" />
   <project path="packages/apps/DUI" name="kimjisoo/packages_apps_DUI" remote="github" revision="n7.0" />
   <project path="packages/apps/LockClock" name="kimjisoo/packages_apps_LockClock" remote="github" revision="n7.0" />
   <project path="packages/apps/Masquerade" name="kimjisoo/packages_apps_Masquerade" remote="github" revision="n7.0" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" remote="github" revision="n7.0" />
+  <project path="packages/apps/PhoneCommon" name="kimjisoo/packages_apps_PhoneCommon" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="n7.0" />
   <project path="packages/services/Telephony" name="kimjisoo/packages_services_Telephony" remote="github" revision="n7.0" />
