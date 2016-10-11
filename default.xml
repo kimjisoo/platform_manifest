@@ -402,7 +402,6 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
@@ -528,6 +527,7 @@
   <project path="packages/apps/DUI" name="kimjisoo/packages_apps_DUI" remote="github" revision="n7.0" />
   <project path="packages/apps/LockClock" name="kimjisoo/packages_apps_LockClock" remote="github" revision="n7.0" />
   <project path="packages/apps/Masquerade" name="kimjisoo/packages_apps_Masquerade" remote="github" revision="n7.0" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="n7.0" />
   <project path="packages/services/Telephony" name="kimjisoo/packages_services_Telephony" remote="github" revision="n7.0" />
