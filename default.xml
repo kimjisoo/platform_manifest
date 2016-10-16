@@ -393,7 +393,6 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
@@ -527,6 +526,7 @@
   <project path="packages/apps/DUI" name="kimjisoo/packages_apps_DUI" remote="github" revision="n7.0" />
   <project path="packages/apps/LockClock" name="kimjisoo/packages_apps_LockClock" remote="github" revision="n7.0" />
   <project path="packages/apps/Masquerade" name="kimjisoo/packages_apps_Masquerade" remote="github" revision="n7.0" />
+  <project path="packages/apps/Messaging" name="kimjisoo/packages_apps_Messaging" remote="github" revision="n7.0" />
   <project path="packages/apps/PhoneCommon" name="kimjisoo/packages_apps_PhoneCommon" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="packages/apps/SlimLauncher" name="kimjisoo/packages_apps_SlimLauncher" remote="github" revision="n7.0" />
