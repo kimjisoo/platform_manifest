@@ -527,6 +527,7 @@
   <project path="packages/apps/LockClock" name="kimjisoo/packages_apps_LockClock" remote="github" revision="n7.0" />
   <project path="packages/apps/Masquerade" name="kimjisoo/packages_apps_Masquerade" remote="github" revision="n7.0" />
   <project path="packages/apps/Messaging" name="kimjisoo/packages_apps_Messaging" remote="github" revision="n7.0" />
+  <project path="packages/apps/OmniSwitch" name="kimjisoo/packages_apps_OmniSwitch" remote="github" revision="n7.0" />
   <project path="packages/apps/PhoneCommon" name="kimjisoo/packages_apps_PhoneCommon" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="packages/apps/SlimLauncher" name="kimjisoo/packages_apps_SlimLauncher" remote="github" revision="n7.0" />
