@@ -517,7 +517,7 @@
   <project path="frameworks/native" name="kimjisoo/frameworks_native" remote="github" revision="n7.0" />
   <project path="frameworks/support" name="kimjisoo/frameworks_support" remote="github" revision="n7.0" />
   <project path="packages/apps/Bluetooth" name="kimjisoo/packages_apps_Bluetooth" remote="github" revision="n7.0" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="github" revision="n7.0" />
+  <project path="packages/apps/Calendar" name="kimjisoo/packages_apps_Calendar" remote="github" revision="n7.0" />
   <project path="packages/apps/Contacts" name="kimjisoo/packages_apps_Contacts" remote="github" revision="n7.0" />
   <project path="packages/apps/ContactsCommon" name="kimjisoo/packages_apps_ContactsCommon" remote="github" revision="n7.0" />
   <project path="packages/apps/Dialer" name="kimjisoo/packages_apps_Dialer" remote="github" revision="n7.0" />
