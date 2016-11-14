@@ -7,6 +7,9 @@
   <remote  name="yashar"
            fetch="https://github.com/nougat-hammerhead" />
            
+  <remote  name="github"
+           fetch="git://github.com/" />
+
   <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
            sync-j="4" />
@@ -495,7 +498,9 @@
   <project path="bionic" name="bionic" remote="yashar" revision="7.0" />
   <project path="system/sepolicy" name="system_sepolicy" remote="yashar" revision="7.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="master" />
-  <project path="build" name="build" remote="yashar" revision="7.0" >
+
+  <!-- legacy repos -->
+  <project path="build" name="kimjisoo/build" remote="github" revision="n7.0-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
