@@ -468,7 +468,7 @@
   
   <project path="bionic" name="kimjisoo/bionic" remote="github" revision="n7.0-legacy"/>
   <project path="external/DUtils" name="kimjisoo/external_DUtils" remote="github" revision="n7.0"/>
-  <project path="device/lge/hammerhead" name="kimjisoo/device_lge_hammerhead" remote="github" revision="7.0-legacy" />
+  <project path="device/lge/hammerhead" name="kimjisoo/device_lge_hammerhead" remote="github" revision="n7.0-legacy" />
   <project path="frameworks/av" name="kimjisoo/frameworks_av" remote="github" revision="n7.0" />
   <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="n7.0" />
   <project path="frameworks/native" name="kimjisoo/frameworks_native" remote="github" revision="n7.0" />
@@ -476,11 +476,11 @@
   <project path="hardware/qcom/audio" name="kimjisoo/hardware_qcom_audio" remote="github" revision="n7.0-legacy" />
   <project path="hardware/qcom/bt" name="kimjisoo/hardware_qcom_bt" remote="github" revision="n7.0-legacy" />
   <project path="hardware/qcom/display" name="kimjisoo/hardware_qcom_display" remote="github" revision="n7.0-legacy" />
-  <project path="hardware/qcom/gps" name="kimjisoo/hardware_qcom_gps" remote="github" revision="7.0-legacy" />
-  <project path="hardware/qcom/keymaster" name="kimjisoo/hardware_qcom_keymaster" remote="github" revision="7.0-legacy" />
+  <project path="hardware/qcom/gps" name="kimjisoo/hardware_qcom_gps" remote="github" revision="n7.0-legacy" />
+  <project path="hardware/qcom/keymaster" name="kimjisoo/hardware_qcom_keymaster" remote="github" revision="n7.0-legacy" />
   <project path="hardware/qcom/media" name="kimjisoo/hardware_qcom_media" remote="github" revision="n7.0-legacy" />
-  <project path="hardware/qcom/msm8x74" name="kimjisoo/hardware_qcom_msm8x74" remote="github" revision="7.0-legacy" />
-  <project path="kernel/lge/hammerhead" name="kimjisoo/kernel_lge_hammerhead" remote="github" revision="7.0-legacy" />
+  <project path="hardware/qcom/msm8x74" name="kimjisoo/hardware_qcom_msm8x74" remote="github" revision="n7.0-legacy" />
+  <project path="kernel/lge/hammerhead" name="kimjisoo/kernel_lge_hammerhead" remote="github" revision="n7.0-legacy" />
   <project path="packages/apps/Bluetooth" name="kimjisoo/packages_apps_Bluetooth" remote="github" revision="n7.0" />
   <project path="packages/apps/Calendar" name="kimjisoo/packages_apps_Calendar" remote="github" revision="n7.0" />
   <project path="packages/apps/Contacts" name="kimjisoo/packages_apps_Contacts" remote="github" revision="n7.0" />
@@ -502,7 +502,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="master" />
   <project path="system/sepolicy" name="kimjisoo/system_sepolicy" remote="github" revision="n7.0-legacy" />
   <project path="system/core" name="kimjisoo/system_core" remote="github" revision="n7.0" />
-  <project path="vendor/lge/hammerhead" name="kimjisoo/vendor_lge" remote="github" revision="7.0-legacy" />
-  <project path="vendor/yashar" name="kimjisoo/vendor_jisoo" remote="github" revision="7.0-legacy" />
+  <project path="vendor/lge/hammerhead" name="kimjisoo/vendor_lge" remote="github" revision="n7.0-legacy" />
+  <project path="vendor/yashar" name="kimjisoo/vendor_jisoo" remote="github" revision="n7.0-legacy" />
 
 </manifest>
