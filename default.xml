@@ -376,7 +376,6 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
@@ -418,7 +417,6 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
@@ -518,6 +516,7 @@
   <project path="frameworks/support" name="kimjisoo/frameworks_support" remote="github" revision="n7.1" />
   <project path="packages/apps/Bluetooth" name="kimjisoo/packages_apps_Bluetooth" remote="github" revision="n7.1" />
   <project path="packages/apps/Calendar" name="kimjisoo/packages_apps_Calendar" remote="github" revision="n7.1" />
+  <project path="packages/apps/Camera2" name="kimjisoo/packages_apps_Camera2" remote="github" revision="n7.1" />
   <project path="packages/apps/Contacts" name="kimjisoo/packages_apps_Contacts" remote="github" revision="n7.1" />
   <project path="packages/apps/ContactsCommon" name="kimjisoo/packages_apps_ContactsCommon" remote="github" revision="n7.1" />
   <project path="packages/apps/Dialer" name="kimjisoo/packages_apps_Dialer" remote="github" revision="n7.1" />
@@ -532,6 +531,7 @@
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.1" />
   <project path="packages/apps/SlimLauncher" name="kimjisoo/packages_apps_SlimLauncher" remote="github" revision="n7.1" />
   <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="n7.1" />
+  <project path="packages/providers/DownloadProvider" name="kimjisoo/packages_providers_DownloadProvider" remote="github" revision="n7.1" />
   <project path="packages/services/Telephony" name="kimjisoo/packages_services_Telephony" remote="github" revision="n7.1" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="n7.1" />
   <project path="system/sepolicy" name="kimjisoo/system_sepolicy" remote="github" revision="n7.1" />
@@ -558,3 +558,4 @@
   <project name="kimjisoo/vendor_lge" path="vendor/lge" remote="github" revision="n7.1" />
 
 </manifest>
+
