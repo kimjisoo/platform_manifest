@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="github"
            fetch="git://github.com/" />
-  <default revision="refs/tags/android-7.0.0_r15"
+  <default revision="refs/tags/android-7.1.1_r1"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
@@ -506,55 +506,55 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- my repos -->
-  <project path="build" name="kimjisoo/build" remote="github" revision="n7.0" >
+  <project path="build" name="kimjisoo/build" remote="github" revision="n7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="kimjisoo/bionic" remote="github" revision="n7.0"/>
-  <project path="external/DUtils" name="kimjisoo/external_DUtils" remote="github" revision="n7.0"/>
-  <project path="frameworks/av" name="kimjisoo/frameworks_av" remote="github" revision="n7.0" />
-  <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="n7.0" />
-  <project path="frameworks/native" name="kimjisoo/frameworks_native" remote="github" revision="n7.0" />
-  <project path="frameworks/support" name="kimjisoo/frameworks_support" remote="github" revision="n7.0" />
-  <project path="packages/apps/Bluetooth" name="kimjisoo/packages_apps_Bluetooth" remote="github" revision="n7.0" />
-  <project path="packages/apps/Calendar" name="kimjisoo/packages_apps_Calendar" remote="github" revision="n7.0" />
-  <project path="packages/apps/Contacts" name="kimjisoo/packages_apps_Contacts" remote="github" revision="n7.0" />
-  <project path="packages/apps/ContactsCommon" name="kimjisoo/packages_apps_ContactsCommon" remote="github" revision="n7.0" />
-  <project path="packages/apps/Dialer" name="kimjisoo/packages_apps_Dialer" remote="github" revision="n7.0" />
-  <project path="packages/apps/DeskClock" name="kimjisoo/packages_apps_DeskClock" remote="github" revision="n7.0" />
-  <project path="packages/apps/DUI" name="kimjisoo/packages_apps_DUI" remote="github" revision="n7.0" />
-  <project path="packages/apps/Gallery2" name="kimjisoo/packages_apps_Gallery2" remote="github" revision="n7.0" />
-  <project path="packages/apps/LockClock" name="kimjisoo/packages_apps_LockClock" remote="github" revision="n7.0" />
-  <project path="packages/apps/Masquerade" name="kimjisoo/packages_apps_Masquerade" remote="github" revision="n7.0" />
-  <project path="packages/apps/Messaging" name="kimjisoo/packages_apps_Messaging" remote="github" revision="n7.0" />
-  <project path="packages/apps/OmniSwitch" name="kimjisoo/packages_apps_OmniSwitch" remote="github" revision="n7.0" />
-  <project path="packages/apps/PhoneCommon" name="kimjisoo/packages_apps_PhoneCommon" remote="github" revision="n7.0" />
-  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.0" />
-  <project path="packages/apps/SlimLauncher" name="kimjisoo/packages_apps_SlimLauncher" remote="github" revision="n7.0" />
-  <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="n7.0" />
-  <project path="packages/services/Telephony" name="kimjisoo/packages_services_Telephony" remote="github" revision="n7.0" />
-  <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="n7.0" />
-  <project path="system/sepolicy" name="kimjisoo/system_sepolicy" remote="github" revision="n7.0" />
-  <project path="system/core" name="kimjisoo/system_core" remote="github" revision="n7.0" />
-  <project path="vendor/jisoo" name="kimjisoo/vendor_jisoo" remote="github" revision="n7.0" />
+  <project path="bionic" name="kimjisoo/bionic" remote="github" revision="n7.1"/>
+  <project path="external/DUtils" name="kimjisoo/external_DUtils" remote="github" revision="n7.1"/>
+  <project path="frameworks/av" name="kimjisoo/frameworks_av" remote="github" revision="n7.1" />
+  <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="n7.1" />
+  <project path="frameworks/native" name="kimjisoo/frameworks_native" remote="github" revision="n7.1" />
+  <project path="frameworks/support" name="kimjisoo/frameworks_support" remote="github" revision="n7.1" />
+  <project path="packages/apps/Bluetooth" name="kimjisoo/packages_apps_Bluetooth" remote="github" revision="n7.1" />
+  <project path="packages/apps/Calendar" name="kimjisoo/packages_apps_Calendar" remote="github" revision="n7.1" />
+  <project path="packages/apps/Contacts" name="kimjisoo/packages_apps_Contacts" remote="github" revision="n7.1" />
+  <project path="packages/apps/ContactsCommon" name="kimjisoo/packages_apps_ContactsCommon" remote="github" revision="n7.1" />
+  <project path="packages/apps/Dialer" name="kimjisoo/packages_apps_Dialer" remote="github" revision="n7.1" />
+  <project path="packages/apps/DeskClock" name="kimjisoo/packages_apps_DeskClock" remote="github" revision="n7.1" />
+  <project path="packages/apps/DUI" name="kimjisoo/packages_apps_DUI" remote="github" revision="n7.1" />
+  <project path="packages/apps/Gallery2" name="kimjisoo/packages_apps_Gallery2" remote="github" revision="n7.1" />
+  <project path="packages/apps/LockClock" name="kimjisoo/packages_apps_LockClock" remote="github" revision="n7.1" />
+  <project path="packages/apps/Masquerade" name="kimjisoo/packages_apps_Masquerade" remote="github" revision="n7.1" />
+  <project path="packages/apps/Messaging" name="kimjisoo/packages_apps_Messaging" remote="github" revision="n7.1" />
+  <project path="packages/apps/OmniSwitch" name="kimjisoo/packages_apps_OmniSwitch" remote="github" revision="n7.1" />
+  <project path="packages/apps/PhoneCommon" name="kimjisoo/packages_apps_PhoneCommon" remote="github" revision="n7.1" />
+  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="n7.1" />
+  <project path="packages/apps/SlimLauncher" name="kimjisoo/packages_apps_SlimLauncher" remote="github" revision="n7.1" />
+  <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="n7.1" />
+  <project path="packages/services/Telephony" name="kimjisoo/packages_services_Telephony" remote="github" revision="n7.1" />
+  <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="n7.1" />
+  <project path="system/sepolicy" name="kimjisoo/system_sepolicy" remote="github" revision="n7.1" />
+  <project path="system/core" name="kimjisoo/system_core" remote="github" revision="n7.1" />
+  <project path="vendor/jisoo" name="kimjisoo/vendor_jisoo" remote="github" revision="n7.1" />
 
   <!-- needed to support legacy devices -->
-  <project path="hardware/qcom/audio" name="kimjisoo/hardware_qcom_audio" remote="github" revision="n7.0" />
-  <project path="hardware/qcom/bt" name="kimjisoo/hardware_qcom_bt" remote="github" revision="n7.0" />
-  <project path="hardware/qcom/display" name="kimjisoo/hardware_qcom_display" remote="github" revision="n7.0" />
-  <project path="hardware/qcom/gps" name="kimjisoo/hardware_qcom_gps" remote="github" revision="n7.0" />
-  <project path="hardware/qcom/keymaster" name="kimjisoo/hardware_qcom_keymaster" remote="github" revision="n7.0" />
-  <project path="hardware/qcom/media" name="kimjisoo/hardware_qcom_media" remote="github" revision="n7.0" />
+  <project path="hardware/qcom/audio" name="kimjisoo/hardware_qcom_audio" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/bt" name="kimjisoo/hardware_qcom_bt" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/display" name="kimjisoo/hardware_qcom_display" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/gps" name="kimjisoo/hardware_qcom_gps" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/keymaster" name="kimjisoo/hardware_qcom_keymaster" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/media" name="kimjisoo/hardware_qcom_media" remote="github" revision="n7.1" />
 
   <!-- flo -->
-  <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="n7.0" />
-  <project path="kernel/msm/flo" name="kimjisoo/kernel_google_msm" remote="github" revision="n7.0" />
-  <project name="kimjisoo/vendor_asus" path="vendor/asus" remote="github" revision="n7.0" />
+  <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="n7.1" />
+  <project path="kernel/msm/flo" name="kimjisoo/kernel_google_msm" remote="github" revision="n7.1" />
+  <project name="kimjisoo/vendor_asus" path="vendor/asus" remote="github" revision="n7.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk,linux,arm" />
 
   <!-- bullhead -->
-  <project name="kimjisoo/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="n7.0" />
-  <project path="kernel/lge/bullhead" name="kimjisoo/kernel_lge_bullhead" remote="github" revision="n7.0" />
-  <project name="kimjisoo/vendor_lge" path="vendor/lge" remote="github" revision="n7.0" />
+  <project name="kimjisoo/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="n7.1" />
+  <project path="kernel/lge/bullhead" name="kimjisoo/kernel_lge_bullhead" remote="github" revision="n7.1" />
+  <project name="kimjisoo/vendor_lge" path="vendor/lge" remote="github" revision="n7.1" />
 
 </manifest>
