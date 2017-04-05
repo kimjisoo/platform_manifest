@@ -521,6 +521,7 @@
   <project path="bionic" name="kimjisoo/bionic" remote="github" revision="n7.1"/>
   <project path="bootable/recovery" name="kimjisoo/bootable_recovery" remote="github" revision="n7.1"/>
   <project path="external/DUtils" name="kimjisoo/external_DUtils" remote="github" revision="n7.1"/>
+  <project path="external/busybox" name="kimjisoo/external_busybox" remote="github" revision="n7.1" />
   <project path="frameworks/av" name="kimjisoo/frameworks_av" remote="github" revision="n7.1" />
   <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="n7.1" />
   <project path="frameworks/native" name="kimjisoo/frameworks_native" remote="github" revision="n7.1" />
