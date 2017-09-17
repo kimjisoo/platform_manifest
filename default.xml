@@ -562,10 +562,11 @@
   <project name="kimjisoo/vendor_asus" path="vendor/asus" remote="github" revision="n7.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk,linux,arm" />
 
-  <!-- bullhead -->
+  <!-- bullhead 
   <project name="kimjisoo/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="n7.1" />
   <project path="kernel/lge/bullhead" name="kimjisoo/kernel_lge_bullhead" remote="github" revision="n7.1" />
   <project name="kimjisoo/vendor_lge" path="vendor/lge" remote="github" revision="n7.1" />
+  -->
 
 </manifest>
 
