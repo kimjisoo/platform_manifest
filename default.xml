@@ -565,6 +565,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk,linux,arm" />
 
   <!-- dora -->
+  <project name="kimjisoo/vendor_sony" path="vendor/sony" remote="github" revision="n7.1" />
   <project path="vendor/broadcom/bt-fm" name="vendor-broadcom-bt-fm" groups="device" remote="sony" revision="master" />
   <project path="vendor/broadcom/wlan" name="vendor-broadcom-wlan" groups="device" remote="sony" revision="master" />
   <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="n-mr1" />
