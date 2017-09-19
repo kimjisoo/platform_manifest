@@ -566,13 +566,13 @@
 
   <!-- dora -->
   <project name="kimjisoo/vendor_sony" path="vendor/sony" remote="github" revision="n7.1" />
+  <project path="device/sony/dora" name="kimjisoo/device_sony_dora" remote="sony" revision="n-7.1" />
   <project path="vendor/broadcom/bt-fm" name="vendor-broadcom-bt-fm" groups="device" remote="sony" revision="master" />
   <project path="vendor/broadcom/wlan" name="vendor-broadcom-wlan" groups="device" remote="sony" revision="master" />
   <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="n-mr1" />
   <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="n-mr1" />
   <project path="device/sony/common-init" name="device-sony-common-init" groups="device" remote="sony" revision="n-mr1" />
   <project path="device/sony/tone" name="device-sony-tone" groups="device" remote="sony" revision="n-mr1" />
-  <project path="device/sony/dora" name="device-sony-dora" groups="device" remote="sony" revision="n-mr1" />
   <project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
   <project path="device/sony/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
   <project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
