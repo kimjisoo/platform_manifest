@@ -5,6 +5,10 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="github"
            fetch="git://github.com/" />
+  <remote  name="sony"
+           fetch="https://github.com/sonyxperiadev/" />
+  <remote  name="NXP" 
+           fetch="https://github.com/NXPNFCProject/" />
   <default revision="refs/tags/android-7.1.2_r28"
            remote="aosp"
            sync-j="4"
@@ -187,7 +191,6 @@
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
@@ -286,7 +289,6 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" groups="pdk" />
-  <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tpm2" name="platform/external/tpm2" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
@@ -360,7 +362,6 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
@@ -481,7 +482,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -555,12 +555,43 @@
   <project path="hardware/qcom/gps" name="kimjisoo/hardware_qcom_gps" remote="github" revision="n7.1" />
   <project path="hardware/qcom/keymaster" name="kimjisoo/hardware_qcom_keymaster" remote="github" revision="n7.1" />
   <project path="hardware/qcom/media" name="kimjisoo/hardware_qcom_media" remote="github" revision="n7.1" />
+  <project path="external/toybox" name="kimjisoo/external_toybox" remote="github" revision="n7.1" />
+  <project path="external/libnfc-nci" name="kimjisoo/external_libnfc-nci" remote="github" revision="n7.1" />
+  <project path="system/extras" name="kimjisoo/system_extras" remote="github" revision="n7.1" />
 
   <!-- flo -->
   <project name="kimjisoo/device_asus_flo" path="device/asus/flo" remote="github" revision="n7.1" />
   <project path="kernel/msm/flo" name="kimjisoo/kernel_google_msm" remote="github" revision="n7.1" />
   <project name="kimjisoo/vendor_asus" path="vendor/asus" remote="github" revision="n7.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk,linux,arm" />
+
+  <!-- dora -->
+  <project path="vendor/broadcom/bt-fm" name="vendor-broadcom-bt-fm" groups="device" remote="sony" revision="master" />
+  <project path="vendor/broadcom/wlan" name="vendor-broadcom-wlan" groups="device" remote="sony" revision="master" />
+  <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="n-mr1" />
+  <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="n-mr1" />
+  <project path="device/sony/common-init" name="device-sony-common-init" groups="device" remote="sony" revision="n-mr1" />
+  <project path="device/sony/tone" name="device-sony-tone" groups="device" remote="sony" revision="n-mr1" />
+  <project path="device/sony/dora" name="device-sony-dora" groups="device" remote="sony" revision="n-mr1" />
+  <project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+  <project path="device/sony/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+  <project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+  <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+  <project path="kernel/sony/msm/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+  <project path="kernel/sony/msm/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+  <project path="kernel/sony/msm/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+  <project path="vendor/nxp/" name="vendor-nxp" groups="device" remote="sony" revision="master" />
+  <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
+  <project path="vendor/qcom/opensource/fm" name="vendor-qcom-opensource-fm" groups="device" remote="sony" revision="master" />
+  <project path="vendor/qcom/opensource/location" name="vendor-qcom-opensource-location" groups="device" remote="sony" revision="m-mr1" />
+  <project path="vendor/sony-oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
+  <project path="vendor/sony-oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+  <project path="vendor/sony-oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+  <project path="vendor/sony-oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
+  <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="master" />
+  <project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
+  <project path="vendor/oss/json-c" name="json-c" groups="device" remote="sony" revision="master" />
 
   <!-- bullhead 
   <project name="kimjisoo/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="n7.1" />
