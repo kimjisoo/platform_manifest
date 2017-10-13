@@ -574,6 +574,7 @@
   <project path="hardware/qcom/gps" name="kimjisoo/hardware_qcom_gps" remote="github" revision="o8.0" />
   <project path="hardware/qcom/media" name="kimjisoo/hardware_qcom_media" remote="github" revision="o8.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="o8.0" />
+  <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="o8.0" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="o8.0" />
   <project path="system/bt" name="kimjisoo/system_bt" remote="github" revision="o8.0" />
   <project path="system/core" name="kimjisoo/system_core" remote="github" revision="o8.0" />
