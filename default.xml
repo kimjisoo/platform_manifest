@@ -363,9 +363,7 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk" />
@@ -577,6 +575,8 @@
   <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="o8.0" />
   <project path="hardware/interfaces" name="kimjisoo/hardware_interfaces" remote="github" revision="o8.0" />
   <project path="hardware/qcom/audio" name="kimjisoo/hardware_qcom_audio" remote="github" revision="o8.0" />
+  <project path="hardware/qcom/bt" name="kimjisoo/hardware_qcom_bt" remote="github" revision="o8.0" />
+  <project path="hardware/qcom/display" name="kimjisoo/hardware_qcom_display" remote="github" revision="o8.0" />
   <project path="hardware/qcom/gps" name="kimjisoo/hardware_qcom_gps" remote="github" revision="o8.0" />
   <project path="hardware/qcom/media" name="kimjisoo/hardware_qcom_media" remote="github" revision="o8.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="o8.0" />
