@@ -597,6 +597,7 @@
   <!-- dora -->
  <project path="device/sony/dora" name="kimjisoo/device_sony_dora" remote="github" revision="o8.0" />
  <project path="device/sony/common" name="kimjisoo/device_sony_common" remote="github" revision="o8.0" />
+ <project path="device/sony/tone" name="device-sony-tone" groups="device" remote="sony" revision="master" />
  <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="master" />
  <project path="device/sony/common-init" name="device-sony-common-init" groups="device" remote="sony" revision="master" />
  <project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
