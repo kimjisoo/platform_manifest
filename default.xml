@@ -45,6 +45,7 @@
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
   <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead,pdk" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead,pdk" clone-depth="1" />
+  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk" />
