@@ -385,7 +385,6 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
@@ -579,6 +578,7 @@
   <project path="hardware/qcom/display" name="kimjisoo/hardware_qcom_display" remote="github" revision="o8.0" />
   <project path="hardware/qcom/gps" name="kimjisoo/hardware_qcom_gps" remote="github" revision="o8.0" />
   <project path="hardware/qcom/media" name="kimjisoo/hardware_qcom_media" remote="github" revision="o8.0" />
+  <project path="packages/apps/Dialer" name="kimjisoo/packages_apps_Dialer" remote="github" revision="o8.0" />
   <project path="packages/apps/DeskClock" name="kimjisoo/packages_apps_DeskClock" remote="github" revision="o8.0" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="o8.0" />
   <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="o8.0" />
