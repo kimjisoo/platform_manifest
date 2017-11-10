@@ -582,7 +582,6 @@
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="o8.0" />
   <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="o8.0" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="o8.0" />
-  <project path="packages/services/ThemeInterfacer" name="kimjisoo/packages_services_ThemeInterfacer" remote="github" revision="o8.0" />
   <project path="system/bt" name="kimjisoo/system_bt" remote="github" revision="o8.0" />
   <project path="system/core" name="kimjisoo/system_core" remote="github" revision="o8.0" />
   <project path="system/sepolicy" name="kimjisoo/system_sepolicy" remote="github" revision="o8.0" />
