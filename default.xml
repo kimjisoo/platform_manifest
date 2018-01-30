@@ -346,7 +346,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -620,6 +619,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="frameworks/av" name="kimjisoo/frameworks_av" remote="github" revision="o8.1" />
   <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="o8.1" />
   <project path="packages/apps/Dialer" name="kimjisoo/packages_apps_Dialer" remote="github" revision="o8.1" />
   <project path="packages/apps/DeskClock" name="kimjisoo/packages_apps_DeskClock" remote="github" revision="o8.1" />
