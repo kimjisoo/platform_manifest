@@ -624,6 +624,7 @@
   <project path="packages/apps/DeskClock" name="kimjisoo/packages_apps_DeskClock" remote="github" revision="o8.1" />
   <project path="packages/apps/Messaging" name="kimjisoo/packages_apps_Messaging" remote="github" revision="o8.1" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="o8.1" />
+  <project path="packages/apps/SlimRecents" name="kimjisoo/packages_apps_SlimRecents" remote="github" revision="o8.1" />
   <project path="packages/apps/Snap" name="kimjisoo/packages_apps_Snap" remote="github" revision="o8.1" />
   <project path="packages/apps/Tweaks" name="kimjisoo/packages_apps_Tweaks" remote="github" revision="o8.1" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="o8.1" />
