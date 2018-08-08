@@ -700,4 +700,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- custom repos -->
+  <project path="vendor/google_devices" name="kimjisoo/vendor_google_devices" remote="github" revision="p9.0" />
+
 </manifest>
