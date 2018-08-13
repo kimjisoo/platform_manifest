@@ -700,8 +700,8 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- custom repos -->
-  <project path="device/google/marlin" name="kimjisoo/device_google_marlin" remote="github" revision="o8.1" />
+  <project path="device/google/marlin" name="kimjisoo/device_google_marlin" remote="github" revision="p9.0" />
   <project path="vendor/google_devices" name="kimjisoo/vendor_google_devices" remote="github" revision="p9.0" />
-  <project path="vendor/jisoo" name="kimjisoo/vendor_jisoo" remote="github" revision="o8.1" />
+  <project path="vendor/jisoo" name="kimjisoo/vendor_jisoo" remote="github" revision="p9.0" />
 
 </manifest>
