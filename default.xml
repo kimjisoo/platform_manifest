@@ -525,7 +525,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
@@ -699,6 +698,7 @@
   <project path="device/google/marlin" name="kimjisoo/device_google_marlin" remote="github" revision="p9.0" />
   <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="p9.0" />
   <project path="packages/apps/DeskClock" name="kimjisoo/packages_apps_DeskClock" remote="github" revision="p9.0" />
+  <project path="packages/apps/Launcher3" name="kimjisoo/packages_apps_Launcher3" remote="github" revision="p9.0" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="p9.0" />
   <project path="vendor/google_devices" name="kimjisoo/vendor_google_devices" remote="github" revision="p9.0" />
   <project path="vendor/jisoo" name="kimjisoo/vendor_jisoo" remote="github" revision="p9.0" />
