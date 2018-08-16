@@ -405,7 +405,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -699,6 +698,7 @@
 
   <!-- custom repos -->
   <project path="device/google/marlin" name="kimjisoo/device_google_marlin" remote="github" revision="p9.0" />
+  <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="p9.0" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/packages_inputmethods_LatinIME" remote="github" revision="p9.0" />
   <project path="vendor/google_devices" name="kimjisoo/vendor_google_devices" remote="github" revision="p9.0" />
   <project path="vendor/jisoo" name="kimjisoo/vendor_jisoo" remote="github" revision="p9.0" />
